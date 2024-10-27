@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        
+        <div class="todo-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add</button>
+        </div>
+
+        <h2>Change Appearance</h2>
+
+        <div class="controls">
+            <select id="bgColor">
+                <option value="white">White</option>
+                <option value="Blue">Blue</option>
+                <option value="lightblue">Light Blue</option>
+                <option value="Green">green</option>
+                <option value="lightgreen">lightgreen</option>
+                <option value="Yellow">Yellow</option>
+                <option value="lightyellow">lightyellow</option>
+                <option value="Red">Red</option>
+                <option value="Grey">Grey</option>
+            </select>
+
+            <button id="increaseFontSize">Increase Font Size</button>
+            <button id="decreaseFontSize">Decrease Font Size</button>
+
+            <button id="toggleDarkMode">Toggle Dark Mode</button>
+
+            <button id="changeFontStyle">Change Font Style</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
